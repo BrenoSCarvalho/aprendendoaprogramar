@@ -34,6 +34,7 @@ header h1{
         padding-top: 30px; /*Essa parte é para que o h1, que estava colado no alto da tela, fique mais para baixo, o margin top fazeria que todo o header ficasse com margem para o topo, mas o padding deixa somente o h1 com margem para o topo*/
         margin-bottom: 20px;
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+        padding: 15px;
     }
 header p{
 
