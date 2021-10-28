@@ -98,7 +98,7 @@ main h1{
     font-family: var(--fontedetitulos);
     font-size: 1.7em;
     font-weight: bold; /*Para ficar negrito */
-    padding: 20px;
+    padding: 10px;
 }
 main h2{
     color: var(--cor1);
@@ -106,7 +106,9 @@ main h2{
     font-family: var(--fontedetitulos);
     font-size: 1.4em;
     background-image: linear-gradient(to right, var(--cor5), transparent);
-    padding: 5px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 h2{
     font-size: bold;
@@ -133,11 +135,9 @@ aside{
 aside  ul{
     list-style-type: '\2714\00a0\00a0'; /*Comando para colocar um tcheq na frente da lista, não esquecer das aspas, 00a0 = espaços*/
     list-style-position: inside; /*Comando para colocaer as bolinhas das lista pra dentro*/
-    color: red
-
-    
 
 }
+
 aside.aside h1, h4{
     background-color: var(--cor1);
     color: white;
